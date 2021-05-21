@@ -11,6 +11,7 @@ public class GameMap {
 	
 	private int x, y, mapScale; // Map Dimensions and position.
 	private BufferedImage map; // The map image file.
+	private BufferedImage normal; // The normal map image file of the map.
 	
 	public GameMap(int x, int y, int scale, String filename) {
 		this.x = x;
